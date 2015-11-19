@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2ad77e94-bec7-4413-8a0c-222c22735087" name="mufflerandgo" url="http://67.209.226.132">
+        <fileTransfer host="67.209.226.132" port="21" username="bruce@mufflerandgo.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

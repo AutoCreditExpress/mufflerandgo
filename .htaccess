@@ -1,0 +1,6 @@
+Options +MultiViews
+DirectoryIndex index index.php index.html
+IndexIgnore */*
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mufflerandgo.com.com [NC]
+RewriteRule ^(.*)$ http://www.mufflerandgo.com.com [L,R=301]

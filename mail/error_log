@@ -1,0 +1,297 @@
+[25-Sep-2015 23:51:53 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [http://AdsPoster.net/] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('http://AdsPoste...')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From',  in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[29-Sep-2015 17:16:39 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From', Array)
+#5 /home/mufflerandgo/public_htm in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[30-Sep-2015 11:36:58 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [http://AdsPoster.net/] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('http://AdsPoste...')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From',  in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[30-Sep-2015 17:58:17 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [Ryan Anderson] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('Ryan Anderson')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From', Array)
+#5 /ho in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[30-Sep-2015 20:07:09 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [http://AdsPoster.net/] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('http://AdsPoste...')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From',  in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[01-Oct-2015 06:21:07 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [http://AdsPoster.net/] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('http://AdsPoste...')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From',  in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[01-Oct-2015 14:22:16 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From', Array)
+#5 /home/mufflerandgo/public_htm in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[03-Oct-2015 21:49:33 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [http://garwolanka.eu/wp-content/Christian-Louboutin-Ankle-Boots34.php] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('http://garwolan...')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[08-Oct-2015 00:13:06 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [Marion layman46@ Gmail.com] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('Marion layman46...')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('Fr in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[08-Oct-2015 13:35:25 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From', Array)
+#5 /home/mufflerandgo/public_htm in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[08-Oct-2015 18:03:25 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [http://AdsPoster.net/] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('http://AdsPoste...')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From',  in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[10-Oct-2015 20:47:53 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [http://AdsPoster.net/] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('http://AdsPoste...')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From',  in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[11-Oct-2015 17:41:10 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [http://AdsPoster.net/] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('http://AdsPoste...')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From',  in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[13-Oct-2015 19:09:29 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [test] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('test')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From', Array)
+#5 /home/mufflerandgo/pu in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[13-Oct-2015 19:13:25 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/mufflerandgo/public_html/mail/lib/mail_sender.php on line 35
+[13-Oct-2015 19:13:58 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(35): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 19:17:09 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 19:22:28 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 19:23:12 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.gmail.com [ #0]' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[13-Oct-2015 19:23:41 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 19:25:33 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 19:33:30 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 19:34:35 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 19:37:17 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 19:38:53 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 20:06:34 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 20:08:27 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 20:14:04 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host ssl://smtp.gmail.com [ #0]' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/StreamBuffer.php:265
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/StreamBuffer.php(62): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(113): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/StreamBuffer.php on line 265
+[13-Oct-2015 20:14:36 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(38): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 20:21:59 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "jmct0425@gmail" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(41): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 20:23:31 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(40): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 20:24:03 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "jmct0425@gmail" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(41): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[13-Oct-2015 21:10:44 UTC] PHP Warning:  include(inc/config.php): failed to open stream: No such file or directory in /home/mufflerandgo/public_html/mail/mandrillMail.php on line 2
+[13-Oct-2015 21:10:44 UTC] PHP Warning:  include(): Failed opening 'inc/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mufflerandgo/public_html/mail/mandrillMail.php on line 2
+[13-Oct-2015 21:10:44 UTC] PHP Fatal error:  Class 'Mandrill' not found in /home/mufflerandgo/public_html/mail/mandrillMail.php on line 15
+[13-Oct-2015 23:22:44 UTC] PHP Warning:  include(/inc/config.php): failed to open stream: No such file or directory in /home/mufflerandgo/public_html/mail/mandrillMail.php on line 2
+[13-Oct-2015 23:22:44 UTC] PHP Warning:  include(): Failed opening '/inc/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mufflerandgo/public_html/mail/mandrillMail.php on line 2
+[13-Oct-2015 23:22:44 UTC] PHP Fatal error:  Class 'Mandrill' not found in /home/mufflerandgo/public_html/mail/mandrillMail.php on line 15
+[14-Oct-2015 15:12:16 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(39): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[14-Oct-2015 15:12:22 UTC] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "leads@mufflerandgo.com" using 2 possible authenticators' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:182
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/EsmtpTransport.php(308): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/mufflerandgo/public_html/mail/lib/mail_sender.php(35): Swift_Mailer->send(Object(Swift_Message))
+#4 /home/mufflerandgo/public_html/mail/mail.php(39): include('/home/muffleran...')
+#5 {main}
+  thrown in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 182
+[14-Oct-2015 19:25:26 UTC] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [test] does not comply with RFC 2822, 3.6.2.' in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php:348
+Stack trace:
+#0 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(262): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('test')
+#1 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(106): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php(63): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMimeEntity.php(602): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/SimpleMessage.php(213): Swift_Mime_SimpleMimeEntity->_setHeaderFieldModel('From', Array)
+#5 /home/mufflerandgo/pu in /home/mufflerandgo/public_html/mail/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 348
+[14-Oct-2015 15:52:42 America/Detroit] PHP Warning:  json_encode(): recursion detected in /home/mufflerandgo/public_html/classes/mandrill/Mandrill.php on line 99
+[14-Oct-2015 15:56:21 America/Detroit] PHP Warning:  json_encode(): recursion detected in /home/mufflerandgo/public_html/classes/mandrill/Mandrill.php on line 99
+[14-Oct-2015 16:02:52 America/Detroit] PHP Warning:  json_encode(): recursion detected in /home/mufflerandgo/public_html/classes/mandrill/Mandrill.php on line 99
+[14-Oct-2015 16:06:23 America/Detroit] PHP Warning:  json_encode(): recursion detected in /home/mufflerandgo/public_html/classes/mandrill/Mandrill.php on line 99
+[14-Oct-2015 16:19:33 America/Detroit] PHP Warning:  json_encode(): recursion detected in /home/mufflerandgo/public_html/classes/mandrill/Mandrill.php on line 99
+[14-Oct-2015 16:22:13 America/Detroit] PHP Warning:  json_encode(): recursion detected in /home/mufflerandgo/public_html/classes/mandrill/Mandrill.php on line 99
+[14-Oct-2015 16:30:17 America/Detroit] PHP Warning:  json_encode(): recursion detected in /home/mufflerandgo/public_html/classes/mandrill/Mandrill.php on line 99
+[14-Oct-2015 16:31:08 America/Detroit] PHP Warning:  json_encode(): recursion detected in /home/mufflerandgo/public_html/classes/mandrill/Mandrill.php on line 99
