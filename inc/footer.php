@@ -29,6 +29,9 @@
                             <a href="<?php echo $webPath;?>about/">About</a>
                         </li>
                         <li>
+                            <a href="<?php echo $webPath;?>why-us/">Why Us?</a>
+                        </li>
+                        <li>
                             <a href="<?php echo $webPath;?>hours/">Hours</a>
                         </li>
                         <li>
@@ -44,10 +47,13 @@
                     <hr>
                     <ul class="link-list recent-posts">
                         <li>
-                            <a href="#]<?php echo $webPath;?>brakes/">Brakes</a>
+                            <a href="<?php echo $webPath;?>brakes/">Brakes</a>
                         </li>
                         <li>
                             <a href="<?php echo $webPath;?>frontend/">Front End</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo $webPath;?>electrical-services/">Electrical Services</a>
                         </li>
                         <li>
                             <a href="<?php echo $webPath;?>battery/">Batteries</a>

@@ -109,6 +109,8 @@ include($docPath.'inc/header.php');
                                 either of them when getting your vehicle repaired at our <strong>auto repair shop in Fenton, MI</strong>. We do this by leveraging the latest technology to
                                 strategically diagnose vehicle issues correctly the first time, and by extending the low
                                 prices we receive from our extensive supply network onto our customers.
+                                <br /><br />
+                                Let us show you why you should <a href="/why-us/">choose Muffler &amp; Go</a> for all your vehicle maintenance and repair needs!
                             </p>
                         </div>
                     </div>

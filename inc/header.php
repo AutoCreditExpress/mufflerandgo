@@ -81,6 +81,10 @@
 
                                     </li>
                                     <li>
+                                        <a href="<?php echo $webPath.'electrical-services/';?>">Electrical Services</a>
+
+                                    </li>
+                                    <li>
                                         <a href="<?php echo $webPath.'battery/';?>">Battery</a>
 
                                     </li>

@@ -11,6 +11,8 @@ if ($_GET['sch'] == 'oil') {
     $service = 'Transmission Service  ';
 } elseif ($_GET['sch'] == 'brakes') {
     $service = 'Brake ';
+}elseif ($_GET['sch'] == 'elec') {
+    $service = 'Electrical Service ';
 }
 ?>
 <div class="main-container">
@@ -80,6 +82,13 @@ if ($_GET['sch'] == 'oil') {
                         <h4 class="uppercase">We Need to know a little more information to set up an appointment...</h4>
                         <p>
                             Please let us know what is a good time for you to get your suspension assessment and we will
+                            be back in contact with you right away to let you know if we have an opening on your
+                            requested date and time.
+                        </p>
+                        <?php elseif ($_GET['sch'] == 'elec'): ?>
+                        <h4 class="uppercase">We Need to know a little more information to set up an appointment...</h4>
+                        <p>
+                            Please let us know what is a good time for you to get your electrical assessment and we will
                             be back in contact with you right away to let you know if we have an opening on your
                             requested date and time.
                         </p>
