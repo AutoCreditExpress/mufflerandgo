@@ -80,18 +80,6 @@
                         <li>
                             <a href="<?php echo $webPath;?>discounts/">Discounts</a>
                         </li>
-                        <!--<li>
-                            <a href="#">Blog</a>
-                        </li> -
-                        <li>
-                            <a href="#">Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a href="#">Terms & Conditions</a>
-                        </li>
-                        <li>
-                            <a href="#">Site Map</a>
-                        </li> -->
                     </ul>
                 </div>
                 <!--end of widget-->
@@ -164,24 +152,42 @@ $(document).ready(function(){
 	});
 			//contact form
 			$('#submitButton').click(function(){
-			$.ajax({
-                type: "POST",
-                url: "../mail/mandrillMail.php",
-                data: $('.form-email').serialize(),
-                success: function (response) {
-					if(response=='complete'){
-						$('.form-email').hide();
-						$('#contactResponse').html('<span style="color:green;border:1px solid green;padding:7px;">Mail has been sent!!</span>');
-					}else{
-						$('.form-email').hide();
-						$('#contactResponse').html('<span style="color:red;border:1px solid red;padding:7px;">'+response+'</span>');
-						setTimeout(function(){
-							$('#contactResponse').html('');
-							$('.form-email').show();	
-						},3000);
-					}
-                },
-            });
+
+                var name = $('#name').val();
+                var email = $('#email').val();
+                var phone = $('#phone').val();
+                var message = $('#message').val();
+
+                if (name==''){
+                    $('#contactResponse').html('Please input name');
+                } else if (email==''){
+                    $('#contactResponse').html('Please input email');
+                } else if (phone==''){
+                    $('#contactResponse').html('Please input phone');
+                } else if (message==''){
+                    $('#contactResponse').html('Please input message');
+                } else {
+                    $.ajax({
+                        type: "POST",
+                        url: "../mail/mandrillMail.php",
+                        data: $('.form-email').serialize(),
+                        success: function (response) {
+                            if(response=='complete'){
+                                $('.form-email').hide();
+                                $('#contactResponse').html('<span style="color:green;border:1px solid green;padding:7px;">Mail has been sent!!</span>');
+                            }else{
+                                $('.form-email').hide();
+                                $('#contactResponse').html('<span style="color:red;border:1px solid red;padding:7px;">'+response+'</span>');
+                                setTimeout(function(){
+                                    $('#contactResponse').html('');
+                                    $('.form-email').show();
+                                },3000);
+                            }
+                        },
+                    });
+                }
+
+
 		});
 	//.nav-bar .module-group right overflow-hidden:visible;
 });
