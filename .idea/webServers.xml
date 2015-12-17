@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="2ad77e94-bec7-4413-8a0c-222c22735087" name="mufflerandgo" url="http://67.209.226.132">
-        <fileTransfer host="67.209.226.132" port="21" username="bruce@mufflerandgo.com">
+      <webServer id="3e5ee174-6569-4974-954c-42aa0412e882" name="mufflerandgo" url="http://67.209.226.132">
+        <fileTransfer host="67.209.226.132" port="21" password="df9fdfc7dfeadf9fdf9edfe8dfd8df9adf9ddf9edf99dfd8df9f" username="bruce@mufflerandgo.com">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>

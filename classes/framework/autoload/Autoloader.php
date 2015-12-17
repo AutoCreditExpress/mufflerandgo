@@ -7,7 +7,13 @@ class Autoloader{
         'SubscriberDAO'                   => 'classes/subscriber/SubscriberDAO.php',
         'StripeWebhookHandler'            => 'classes/stripe_webhook/StripeWebhookHandler.php',
         'Login'                           => 'classes/login/Login.php',
-		'Mandrill'                           => 'classes/mandrill/Mandrill.php'
+		'Mandrill'                        => 'classes/mandrill/Mandrill.php',
+        'Review'                          =>'classes/review/review.php',
+        'ReviewDAO'                       =>'classes/review/reviewDAO.php',
+
+        //Libraries
+        'PHPMailer'             => '/libraries/PHPMailer.php',
+        'SMTP'                  => '/libraries/class.smtp.php',
     );
 
     public function __construct($basePath) {
