@@ -62,6 +62,7 @@ if( !defined('SG_CLASSPATH') ) {
     define('SG_CLASSPATH', '');
 }
 
+//include_once('login_config.php');
 require_once($docPath.'classes/framework/autoload/Autoloader.php');
 
 $sg_autoloader = new Autoloader($docPath . SG_CLASSPATH);
