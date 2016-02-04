@@ -181,5 +181,38 @@ include($docPath.'inc/header.php');
                 <!--end of container-->
             </section>
 
+            <section class="bg-secondary">
+                <div class="container">
+                    <div class="row v-align-children">
+                        <div class="col-md-7 col-sm-6 text-center mb-xs-24">
+
+                            <div class="embed-video-container embed-responsive embed-responsive-16by9">
+                                <img src="<?php echo $webPath;?>img/local-service.jpg">
+                            </div>
+                            <!--end of embed video container-->
+
+                        </div>
+                        <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1">
+                            <h3>Local Service Area</h3>
+                            <p>
+                                We are proud to service local areas around Southeast Michigan, including:
+                            </p>
+                            <ul>
+                                <li><a href="<?php echo $webPath;?>auto-repair-holly-mi/">Holly, MI</a></li>
+                                <li>Fenton, MI</li>
+                                <li>Davisburg, MI</li>
+                                <li>Grand Blanc, MI</li>
+                                <li>Brandon, MI</li>
+                                <li>Springfield, MI</li>
+                                <li>Linden, MI</li>
+                                <li>Flint, MI</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+
 <!-- Footer -->
             <?php include($docPath.'inc/footer.php');

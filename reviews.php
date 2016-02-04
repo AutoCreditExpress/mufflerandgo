@@ -255,6 +255,9 @@ include("inc/config.php");
                                             <label for="rating1">1</label>
                                           </span>
                     </div>
+
+                <input type="text" name="userRating" id="userRating" style="display:none;">
+
             </div>
             <div class="clear footer text-center">
                 <button type="button" id="submit-userRating" class="btn btn-default" style="margin-top:45px;">
@@ -287,15 +290,20 @@ include("inc/config.php");
             $('.customerInfo').show();
         });
   */
-        $('#submit-userRating').click(function(){
+
+        $('.theStar').click(function(){
             var starValue=$(this).val();
             $('#userRating').val(starValue);
-            $('.theStarRating').hide();
             $('#passedRating').val(starValue);
+        });
+
+        $('#submit-userRating').click(function(){
+            $('.theStarRating').hide();
             $('.customerInfo').show();
         });
+
         $('#submit-customer-info').click(function(){
-            var starValue=$('#userRating').val();
+            var stars=$('#userRating').val();
             var userName=$('#userName').val();
             var userEmail=$('#userEmail').val();
             var userPhone=$('#userPhone').val();
@@ -310,7 +318,7 @@ include("inc/config.php");
                 $.ajax({
                     method: 'POST',
                     url: "<?php echo $webPath;?>handlers/saveCustomerInfo.php",
-                    data: {userName: userName,userEmail: userEmail, userPhone: userPhone,userRating: starValue},
+                    data: {userName: userName,userEmail: userEmail, userPhone: userPhone,userRating: stars},
                     success: function(data){
                         console.log('test2');
                         $('.modalLoading').hide();
@@ -320,7 +328,7 @@ include("inc/config.php");
                         if(theData.status=='complete'){
                             console.log('test3');
                             //return the id to save the message later
-                            if(starValue<=6){
+                            if(stars<=6){
                                 $('#passedId').val(theData.id);
                                 $('.doBetter').show();
                             }else{
@@ -334,6 +342,7 @@ include("inc/config.php");
                 });
             }
         });
+
         $('#submit-do-better').click(function(){
             $('.userFields').hide();
             $('.modalLoading').show();
@@ -384,6 +393,7 @@ include("inc/config.php");
             });
 
         });
+
         $('#submit-your-thoughts').click(function(){
             $('.userFields').hide();
             $('.modalLoading').show();
@@ -423,10 +433,12 @@ include("inc/config.php");
                 }
             });
         });
+
         $('#otherReview').click(function(){
             $('.chooseReview').hide();
             $('.yourThoughts').show();
         });
+
         $('#googleReview').click(function(){
             var userEmail = $('#userEmail').val();
             $.ajax({

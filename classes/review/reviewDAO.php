@@ -107,7 +107,8 @@ class ReviewDAO {
     }
     function createReview($name,$email,$rating,$phone=null){
 
-        $createReview = $this->db->prepare("INSERT INTO review (review_name, review_email, review_phone, review_rating) VALUES ('".$name."','".$email."','".$rating."','".$phone."')");
+        $createReview = $this->db->prepare("INSERT INTO review (review_name, review_email, review_rating, review_phone)
+                                            VALUES ('".$name."','".$email."','".$rating."','".$phone."')");
         try{
             $createReview->execute();
             // return the id of the review
