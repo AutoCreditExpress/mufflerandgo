@@ -45,7 +45,7 @@ include($docPath.'inc/header.php');
                         </p>
                         <p class="lead mb40">
                             No matter what your need is for your vehicle, we have the expert knowledge and experience to get the job done right the first time, and all at a price you can afford. We have been providing
-                            the best auto repair service in Holly, MI for years now, and we would like the chance to prove to you why we are the best! Schedule your appointment today.s
+                            the best auto repair service in Holly, MI for years now, and we would like the chance to prove to you why we are the best! Schedule your appointment today.
                         </p>
                     </div>
                 </div>

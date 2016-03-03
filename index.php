@@ -199,7 +199,7 @@ include($docPath.'inc/header.php');
                             </p>
                             <ul>
                                 <li><a href="<?php echo $webPath;?>auto-repair-holly-mi/">Holly, MI</a></li>
-                                <li>Fenton, MI</li>
+                                <li><a href="<?php echo $webPath;?>auto-repair-fenton-mi/">Fenton, MI</a></li>
                                 <li>Davisburg, MI</li>
                                 <li>Grand Blanc, MI</li>
                                 <li>Brandon, MI</li>
